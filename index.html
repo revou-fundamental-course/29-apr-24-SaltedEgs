@@ -1,23 +1,147 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Wonderlust Voyage</title>
 </head>
 
 <body>
-    <header class="navigation-container">
-        <div>Ini Logo</div>
-        
-        <nav>
-            <button>Home</button>
-            <button>Our Package</button>
-            <Button>Call Us</Button>
+    <header class="header">
+        <a href="#" class="logo">Wonderlust Voyage</a>
+        <nav class="navbar">
+            <a href="#home" class="scroll-link">Home</a>
+            <a href="#our-package" class="scroll-link">Our Package</a>
+            <a href="#call-us" class="scroll-link">Call Us</a>
         </nav>
     </header>
+    <section class="home" id="home">
+        <div class="Title">
+            <h1>The Best Travel Agent</h1>
+            <p>Trusted and Experienced Travel Guide</p>
+        </div>
+        
+        <div class="main">
+            <div class="img-content" style="float: left;">
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="assets/Jogja.jpg" alt="foto tugu">
+                            <p class="caption"><i>"Their service is outstanding, very satisfied!"</i></p>
+                                <div class="post-profile">
+                                    <img src="assets/icon1.jpg" alt="icon profile">
+                                <div class="profile">
+                                    <h4>tuonto</h4>
+                                    <p><i>Traveler, 25</i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img src="assets/cafe.jpg" alt="foto cafe">
+                            <p class="caption"><i>"Chill and cozy"</i></p>
+                                <div class="post-profile">
+                                    <img src="assets/icon2.jpg" alt="icon profile">
+                                <div class="profile">
+                                    <h4>Qwacker</h4>
+                                    <p><i>Traveler, 28</i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img src="assets/Vacation2.jpg" alt="foto alam">
+                            <p class="caption"><i>"Back to nature baby!!!"</i></p>
+                                <div class="post-profile">
+                                    <img src="assets/icon3.jpg" alt="icon profile">
+                                <div class="profile">
+                                    <h4>Zeke</h4>
+                                    <p><i>Traveler, 20</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="form-content">
+                <h3>Contact Us</h3>
+
+                <form action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="interest">What are you interested in?</label>
+                    <select name="interest" required>
+                        <option value="honeymoon">Honeymoon</option>
+                        <option value="family">Family</option>
+                        <option value="business">Business</option>
+                    </select>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-package" id="our-package">
+        <h1>Our Package</h1>
+
+        <div class="package-content">
+
+            <div class="package">
+                <i class='bx bxs-tree-alt'></i>
+                <div class="text">
+                    <h3>Family</h3>
+                    <p>We can guarantee your trip gonna be memmorable.</p>
+                </div>
+            </div>
+
+            <div class="package">
+                <i class='bx bxs-pen' ></i>
+                <div class="text">
+                    <h3>Business</h3>
+                    <p>You will gonna forget this is a business trip.</p>
+                </div>
+            </div>
+
+            <div class="package">
+                <i class='bx bxs-heart'></i>
+                <div class="text">
+                    <h3>Honeymoon</h3>
+                    <p>Provide an exciting vacation wit you and partner.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-us" id="call-us">
+        <div class="call-us-content">
+            <h1>Booking Now!</h1>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=6SV7wD83eK5VAzqb"><button>CALL US</button></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-year">
+                <h5>&copy; <span id="year"></span> | Hafidh Yusuf Hardiansyah</h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
