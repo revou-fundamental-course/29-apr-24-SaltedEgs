@@ -14,7 +14,7 @@
 .home,
 .our-package {
     min-height: 100vh;
-    padding: 5rem 9% 2rem;
+    padding: 10rem 9% 2rem;
 }
 
 .call-us {
@@ -59,17 +59,17 @@
     color: #2fffe7; /* Hover Color */
 }
 
-.judul {
+.Title {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--textcolor);
     font-weight: 700;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.judul p {
-    font-size: 1.2rem;
+.Title p {
+    font-size: 1rem;
     color: var(--textcolor);
     font-weight: 400;
     text-align: center;
@@ -122,7 +122,7 @@
     padding: 40px;
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: rgb(237, 236, 236);
+    background-color: #adf;
 }
 
 .post-profile {
@@ -237,7 +237,7 @@ form label {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .package-content {
